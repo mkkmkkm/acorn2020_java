@@ -4,7 +4,8 @@ package test.mypac;
  *  abstract 예약어를 붙여서 정의해야한다.  
  */
 public abstract class Weapon {
-	//무기 작동을 준비하는 메소드
+	// 무기 작동을 준비하는 메소드
+	// 구현된 메소드도 존재할 수 있다.
 	public void prepare() {
 		System.out.println("무기 작동을 준비 합니다.");
 	}
